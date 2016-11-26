@@ -10,18 +10,21 @@ PFont font;
 
 boolean[]keys = new boolean[1000];
 
+
 Info[] info;
 String[] lines;
 int counter;
 int amount = 3;
 int first;
 
+
 void setup()
 {
   size(800,500);
   
-  noLoop();
+  
   //textFont(font);
+  
   int i;
   lines = loadStrings("StarInfo.txt");
   info = new Info[lines.length];
@@ -39,6 +42,7 @@ void setup()
   {
     info = (Info[]) subset(info, 0, counter);
   }
+ 
  
 }
 
@@ -123,13 +127,15 @@ void draw()
       clk1.display();
       
       //Star Info
+      fill(255);
       int i;
       for(i=0;i<amount;i++)
       {
         int current = first + i;
         if(current < counter)
         {
-          text(current + " : " + info[current].name, 14, 10 + i*20);
+          fill(255);
+          text(current + " : " + info[current].name, 700, 40 + i*20);
         }
       }
       
