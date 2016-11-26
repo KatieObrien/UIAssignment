@@ -141,7 +141,8 @@ void draw()
       clk1.time();
       clk1.display();
       
-      if(mousePressed)
+    }
+    if(mousePressed)
       {
         int i;
         for(i = 0; i < amount; i ++)
@@ -153,8 +154,6 @@ void draw()
           }
         }
       }
-      
-    }
 }
 
 void mousePressed()
