@@ -42,7 +42,6 @@ void setup()
  
 }
 
-
 void keyPressed()
 {
   keys[keyCode]=true;
@@ -56,8 +55,6 @@ boolean checkKey(int k)
   }
   return false;
 }
-
-
 
 void draw()
 {
