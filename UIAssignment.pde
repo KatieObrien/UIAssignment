@@ -125,5 +125,16 @@ void draw()
       clk1.time();
       clk1.display();
       
+      //Star Info
+      int i;
+      for(i=0;i<amount;i++)
+      {
+        int current = first + i;
+        if(current < counter)
+        {
+          text(current + " : " + info[current].name, 14, 10 + i*20);
+        }
+      }
+      
     }
 }
