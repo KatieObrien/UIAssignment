@@ -37,12 +37,10 @@ void setup()
       counter ++;
     }
   }
-  
   if(counter != info.length)
   {
     info = (Info[]) subset(info, 0, counter);
   }
- 
  
 }
 
@@ -129,9 +127,6 @@ void draw()
       //Star Info
       fill(255);
       int i;
-      if(mousePressed)
-      {
-      first += counter;
       for(i=0;i<amount;i++)
       {
         int current = first + i;
@@ -141,7 +136,7 @@ void draw()
           text(current + " : " + info[current].name, 400, 250);
         }
       }
-      }
+      
       
     }
 }
