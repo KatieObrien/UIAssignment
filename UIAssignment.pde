@@ -6,26 +6,56 @@ Stars star = new Stars();
 
 RandStars randStar = new RandStars();
 
-Table info;
+//Table info1;
+
+PFont font;
 
 boolean[]keys = new boolean[1000];
+
+Info[] info;
+String[] lines;
+int counter;
+int amount = 1;
+int first;
 
 
 void setup()
 {
   size(800,500);
   
-  info = loadTable("StarsInfo.csv","header");
+  noLoop();
+  textFont(font);
+  int i;
+  lines = loadStrings("StarInfo.txt");
+  info = new Info[lines.length];
+  for(i = 0; i < lines.length; i ++)
+  {
+    String[] inf = split(lines[i], TAB);
+    if(inf.length == 1)
+    {
+      info[counter] = new Info(inf);
+      counter ++;
+    }
+  }
   
-  println(info.getRowCount() + "total rows in table");
+  if(counter != info.length)
+  {
+    info = (Info[]) subset(info, 0, counter);
+  }
   
-  for (TableRow row : info.rows()) 
+  /*
+  info1 = loadTable("StarsInfo.csv","header");
+  
+  println(info1.getRowCount() + "total rows in table");
+  
+  for (TableRow row : info1.rows()) 
   {
     String name = row.getString("Name");
     String galaxy = row.getString("Galaxy");
     
     println(name + galaxy);
   }
+  */
 }
 
 
@@ -43,7 +73,7 @@ boolean checkKey(int k)
   return false;
 }
 
-PFont font;
+
 
 void draw()
 {
