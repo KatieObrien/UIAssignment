@@ -164,5 +164,5 @@ void mousePressed()
   {
     first = 0;
   }
-  redraw();
+  //redraw();
 }
