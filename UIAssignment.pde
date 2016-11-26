@@ -143,13 +143,3 @@ void draw()
       
     }
 }
-
-void mousePressed()
-{
-  first += amount;
-  if(first > info.length)
-  {
-    first = 0;
-  }
-  //redraw();
-}
