@@ -6,23 +6,25 @@ Stars star = new Stars();
 
 RandStars randStar = new RandStars();
 
+Info info = new Info();
+
 PFont font;
 
 boolean[]keys = new boolean[1000];
 
-
+/*
 Info[] info;
 String[] lines;
 int counter;
 int amount = 3;
 int first;
-
+*/
 
 void setup()
 {
   size(800,500);
   
-  
+  /*
   font = loadFont("AppleSDGothicNeo-ExtraBold-28.vlw");
   textFont(font,40);
   int i;
@@ -41,6 +43,7 @@ void setup()
   {
     info = (Info[]) subset(info, 0, counter);
   }
+  */
  
 }
 
@@ -124,6 +127,8 @@ void draw()
       clk1.time();
       clk1.display();
       
+      info.mouseMoved();
+      /*
       //Star Info
       fill(255);
       int i;
@@ -136,7 +141,7 @@ void draw()
           text(current + " : " + info[current].name, 400, 250);
         }
       }
-      
-      
+      */
+ 
     }
 }
