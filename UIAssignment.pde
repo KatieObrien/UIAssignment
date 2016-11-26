@@ -23,8 +23,8 @@ void setup()
   size(800,500);
   
   
-  //textFont(font);
-  
+  font = loadFont("AppleSDGothicNeo-ExtraBold-28.vlw");
+  textFont(font,40);
   int i;
   lines = loadStrings("StarInfo.txt");
   info = new Info[lines.length];
@@ -129,14 +129,18 @@ void draw()
       //Star Info
       fill(255);
       int i;
+      if(mousePressed)
+      {
+      first += counter;
       for(i=0;i<amount;i++)
       {
         int current = first + i;
         if(current < counter)
         {
           fill(255);
-          text(current + " : " + info[current].name, 700, 40 + i*20);
+          text(current + " : " + info[current].name, 400, 250);
         }
+      }
       }
       
     }
