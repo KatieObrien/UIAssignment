@@ -84,19 +84,6 @@ void draw()
     text("Welcome", 310,height/2);
     textFont(font,32);
     text("Press space key to initiate system", 110, 300);
-    
-    if(mousePressed)
-      {
-        int i;
-        for(i = 0; i < amount; i ++)
-        {
-          int thisone = first + i;
-          if(thisone < counter)
-          {
-            text(thisone + " : " + info[thisone].name, 30,30 +i*20);
-          }
-        }
-      }
   
     flashstar.drawFlashStars();
   
