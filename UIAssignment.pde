@@ -15,7 +15,7 @@ boolean[]keys = new boolean[1000];
 Info[] info;
 String[] lines;
 int counter;
-int amount = 1;
+int amount = 3;
 int first;
 
 
@@ -31,7 +31,7 @@ void setup()
   for(i = 0; i < lines.length; i ++)
   {
     String[] inf = split(lines[i], TAB);
-    if(inf.length == 1)
+    if(inf.length == 3)
     {
       info[counter] = new Info(inf);
       counter ++;
@@ -149,7 +149,7 @@ void draw()
           int thisone = first + i;
           if(thisone < counter)
           {
-            text(thisone + "> " + info[thisone].name, 30,30 +i*20);
+            text(thisone + " : " + info[thisone].name, 30,30 +i*20);
           }
         }
       }
