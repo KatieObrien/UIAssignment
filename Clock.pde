@@ -1,13 +1,13 @@
 class Clock extends clk
 {
   int size;
-  float x,y;
+  float q,r;
   
-  Clock(int Size, float r, float q)
+  Clock(int Size, float x, float y)
   {
     size = Size;
-    x = r;
-    y = q;
+    q = x;
+    r = y;
   }
   
   void time()
@@ -22,7 +22,7 @@ class Clock extends clk
     fill(80,84,88);
     textSize(size);
     textAlign(CENTER);
-    text(h + ":" + nf(m,2) + ":" + nf(s,2), x, y);
+    text(h + ":" + nf(m,2) + ":" + nf(s,2), q, r);
   }
 }
 
