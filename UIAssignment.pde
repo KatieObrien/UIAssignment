@@ -6,8 +6,6 @@ Stars star = new Stars();
 
 RandStars randStar = new RandStars();
 
-//Table info1;
-
 PFont font;
 
 boolean[]keys = new boolean[1000];
@@ -17,7 +15,6 @@ String[] lines;
 int counter;
 int amount = 3;
 int first;
-
 
 void setup()
 {
@@ -42,20 +39,7 @@ void setup()
   {
     info = (Info[]) subset(info, 0, counter);
   }
-  
-  /*
-  info1 = loadTable("StarsInfo.csv","header");
-  
-  println(info1.getRowCount() + "total rows in table");
-  
-  for (TableRow row : info1.rows()) 
-  {
-    String name = row.getString("Name");
-    String galaxy = row.getString("Galaxy");
-    
-    println(name + galaxy);
-  }
-  */
+ 
 }
 
 
