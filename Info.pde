@@ -1,11 +1,13 @@
 class Info 
 {
   String name;
-  String galaxy;
+  float age;
+  float id;
   
   public Info(String[] inf)
   {
     name = inf[0];
-    galaxy = inf[1];
+    age = float(inf[1]);
+    id = float(inf[2]);
   }
 }
