@@ -24,7 +24,7 @@ void setup()
   size(800,500);
   
   noLoop();
-  textFont(font);
+  //textFont(font);
   int i;
   lines = loadStrings("StarInfo.txt");
   info = new Info[lines.length];
@@ -137,10 +137,32 @@ void draw()
       
       text("Captain Control Board",650,490);
       
-  
       //Clock
       clk1.time();
       clk1.display();
       
+      if(mousePressed)
+      {
+        int i;
+        for(i = 0; i < amount; i ++)
+        {
+          int thisone = first + i;
+          if(thisone < counter)
+          {
+            text(thisone + "> " + info[thisone].name, 30,30 +i*20);
+          }
+        }
+      }
+      
     }
+}
+
+void mousePressed()
+{
+  first += amount;
+  if(first > info.length)
+  {
+    first = 0;
+  }
+  redraw();
 }
