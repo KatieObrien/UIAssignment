@@ -113,12 +113,13 @@ void draw()
       stroke(147,147,147);
       line(137,452,663,452);
       
-      //Square
+      //Radar Square
+      /*
       noStroke();
       fill(255);
-      triangle(695,115,695,0,580,0);
-      triangle(692,112,801,112,801,185);
+      
       rect(695,-1,460,115);
+      */
       
       //Words
       stroke(80,84,88);
