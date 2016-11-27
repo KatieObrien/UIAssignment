@@ -103,15 +103,16 @@ void draw()
       
       text("Captain Control Board",650,490);
       
-      //Fuel Bar
-      fuel.drawBar();
-      
       //Clock
       clk1.time();
       clk1.display();
       
       //Radar
       radar.drawRadar();
+      
+      //Fuel Bar
+      textFont(font,26);
+      fuel.drawBar();
       
       //Info
       info.mouseMoved();
