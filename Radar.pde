@@ -4,13 +4,13 @@ class Radar
   float rx =750,ry = 60;
   float theta = 0.05f;
   float speed = 0.01f;
-  int traillength = 150;
+  int trail = 150;
   
   void drawRadar()
   {
     theta += 0.005;
 
-    for(int i = 0; i < traillength; i ++)
+    for(int i = 0; i < trail; i ++)
     {
       float lineTheta = theta - (i * speed);
       stroke(88+(i+5),88+(i+5), 88+(i+5));
