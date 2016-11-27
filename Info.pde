@@ -10,7 +10,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Apus" + "\n" + " 10000000000" + "\n" + " 82974",400,200);
+      text("Apus" + "\n" + " 10000000000" + "\n" + " 82974",400,240);
     }
     if(mouseX >= 395 && mouseX <= 405 && mouseY >= 420 &&  mouseY <= 430)
     {
@@ -20,7 +20,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Carina" + "\n" + " 7000000000" + "\n" + " 38294",400,210);
+      text("Carina" + "\n" + " 7000000000" + "\n" + " 38294",400,240);
     }
     if(mouseX >= 715 && mouseX <= 725 && mouseY >= 245 &&  mouseY <= 255)
     {
@@ -30,7 +30,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Crux" + "\n" + " 3002000000" + "\n" + " 24939", 400,220);
+      text("Crux" + "\n" + " 3002000000" + "\n" + " 24939", 400,240);
     }
     if(mouseX >= 865 && mouseX <= 875 && mouseY >= 95 &&  mouseY <= 105)
     {
@@ -40,7 +40,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Draco" + "\n" +  " 12000078000" + "\n" + " 23393", 400,230);
+      text("Draco" + "\n" +  " 12000078000" + "\n" + " 23393", 400,240);
     }
     if(mouseX >= 475 && mouseX <= 485 && mouseY >= 70 &&  mouseY <= 80)
     {
@@ -60,7 +60,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Indus" + "\n" + " 4358000000" + "\n" + " 12039", 400,250);
+      text("Indus" + "\n" + " 4358000000" + "\n" + " 12039", 400,240);
     }
     if(mouseX >= 200 && mouseX <= 300 && mouseY >= 205 &&  mouseY <= 305)
     {
@@ -70,7 +70,7 @@ class Info
       fill(80,84,88);
       textSize(27);
       textAlign(CENTER);
-      text("Leo" + "\n" + " 11300400000" + "\n" + " 95202",400,260);
+      text("Leo" + "\n" + " 11300400000" + "\n" + " 95202",400,240);
     }
   }
 }
