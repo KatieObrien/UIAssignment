@@ -8,6 +8,8 @@ RandStars randStar = new RandStars();
 
 Info info = new Info();
 
+Radar radar = new Radar();
+
 PFont font;
 
 boolean[]keys = new boolean[1000];
@@ -126,6 +128,9 @@ void draw()
       //Clock
       clk1.time();
       clk1.display();
+      
+      //Radar
+      radar.drawRadar();
       
       info.mouseMoved();
       /*
