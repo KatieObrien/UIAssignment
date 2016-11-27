@@ -7,7 +7,7 @@ class Stars
     pushMatrix();
     translate(width - 640, height*0.2);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -15,7 +15,7 @@ class Stars
     pushMatrix();
     translate(width - 640, height*0.2);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -27,7 +27,7 @@ class Stars
     pushMatrix();
     translate(width - 400, height*0.85);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -35,7 +35,7 @@ class Stars
     pushMatrix();
     translate(width - 400, height*0.85);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -47,7 +47,7 @@ class Stars
     pushMatrix();
     translate(width - 80, height*0.5);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -55,7 +55,7 @@ class Stars
     pushMatrix();
     translate(width - 80, height*0.5);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -67,7 +67,7 @@ class Stars
     pushMatrix();
     translate(width + 70, height*0.2);
     rotate(frameCount/-100.0);
-    fill(219,217,217);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -75,7 +75,7 @@ class Stars
     pushMatrix();
     translate(width + 70, height*0.2);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -87,7 +87,7 @@ class Stars
     pushMatrix();
     translate(width - 320, height*0.15);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -95,7 +95,7 @@ class Stars
     pushMatrix();
     translate(width - 320, height*0.15);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -107,7 +107,7 @@ class Stars
     pushMatrix();
     translate(width - 680, height*0.7);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -115,7 +115,7 @@ class Stars
     pushMatrix();
     translate(width - 680, height*0.7);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -127,7 +127,7 @@ class Stars
     pushMatrix();
     translate(width - 890, height*0.5);
     rotate(frameCount/-100.0);
-    fill(255,255,255);
+    fill(239,240,143);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
@@ -135,7 +135,7 @@ class Stars
     pushMatrix();
     translate(width - 890, height*0.5);
     rotate(frameCount/-50.0);
-    fill(185,180,180);
+    fill(255,255,214);
     noStroke();
     star(0,0,5,15,4);
     popMatrix();
