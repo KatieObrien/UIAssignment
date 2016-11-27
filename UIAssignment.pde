@@ -113,6 +113,9 @@ void draw()
       stroke(147,147,147);
       line(137,452,663,452);
       
+      //Square
+      rect(550,-1,460,100);
+      
       //Words
       stroke(80,84,88);
       fill(85,85,85);
