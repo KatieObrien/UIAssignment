@@ -12,12 +12,16 @@ class Fuel
     rect(615,10,x,30);
     fill(0);
     textSize(30);
-    text("FUEL",675,37);
+    text("FUEL",675,35);
     
     //int time = second();
     if(x>0)
     {
       x = x -0.1;
+    }
+    if(x<=0)
+    {
+      background(0);
     }
   }
 }

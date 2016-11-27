@@ -100,32 +100,29 @@ void draw()
       noStroke();
       triangle(-1,-1,-1,90,300,-1);
       triangle(801,-1,801,90,500,-1);
-      //noStroke();
       rect(-1,-1,801,50);
       
       //Bar - bottom
-      //fill(255);
-      //noStroke();
       triangle(-1,501,-1,410,300,501);
       triangle(801,501,801,410,500,501);
-      //noStroke();
       rect(-1,452,801,50);
       
       //Radar - Square
-      //noStroke();
-      //fill(255);
-      rect(695,195,400,115);
+      rect(699,198,101,105,20);
       
-      //side lines
-      //noStroke();
-      //fill(255);
+      //side lines & text
+      text("L" + "\n" + "E" + "\n" + "F" + "\n" + "T",31.25,200);
+      text("R" + "\n" + "I" + "\n" + "G" + "\n" + "H" + "\n" + "T",786.75,200);
+      fill(0);
+      text("I" + "\n" + "G" + "\n" + "H",786.75,235);
+      fill(255);
       rect(737.5,0,20,550);
       rect(62.5,0,20,550);
       
       //Words
       stroke(80,84,88);
       fill(85,85,85);
-      font = loadFont("AppleSDGothicNeo-ExtraBold-28.vlw");
+      //font = loadFont("AppleSDGothicNeo-ExtraBold-28.vlw");
       textFont(font,26);
       text("X:",20,490);
       text(mouseX,53,490);
