@@ -52,9 +52,9 @@ void setup()
     info = (Info[]) subset(info, 0, counter);
   }
   */
-  sound = new SoundFile(this,"UIassignmentSound.m4a");
-  //file.play();
-  sound.loop();
+  sound = new SoundFile(this,"UIAsound.aiff");
+  //sound.play();
+  //sound.loop();
  
 }
 
@@ -129,7 +129,6 @@ void draw()
       //Words
       stroke(80,84,88);
       fill(85,85,85);
-      //font = loadFont("AppleSDGothicNeo-ExtraBold-28.vlw");
       textFont(font,26);
       text("X:",20,490);
       text(mouseX,53,490);
@@ -138,15 +137,15 @@ void draw()
       
       text("Captain Control Board",650,490);
       
+      //Fuel Bar
+      fuel.drawBar();
+      
       //Clock
       clk1.time();
       clk1.display();
       
       //Radar
       radar.drawRadar();
-      
-      //Fuel Bar
-      fuel.drawBar();
       
       info.mouseMoved();
       /*
