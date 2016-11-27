@@ -12,6 +12,10 @@ Radar radar = new Radar();
 
 Fuel fuel = new Fuel();
 
+import processing.sound.*;
+SoundFile sound;
+
+
 PFont font;
 
 boolean[]keys = new boolean[1000];
@@ -48,6 +52,9 @@ void setup()
     info = (Info[]) subset(info, 0, counter);
   }
   */
+  sound = new SoundFile(this,"UIassignmentSound.m4a");
+  //file.play();
+  sound.loop();
  
 }
 
