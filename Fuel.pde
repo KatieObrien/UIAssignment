@@ -1,5 +1,6 @@
 class Fuel
 {
+  
   float x = 120;
   
   void drawBar()
@@ -10,7 +11,8 @@ class Fuel
     fill(147,147,147);
     rect(615,10,x,30);
     fill(0);
-    text("FUEL",675,40);
+    textSize(30);
+    text("FUEL",675,37);
     
     //int time = second();
     if(x>0)
