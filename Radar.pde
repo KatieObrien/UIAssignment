@@ -1,7 +1,7 @@
 class Radar 
 {
   float rad = 100;
-  float rx,ry;
+  float rx =700,ry = 100;
   float theta = 0.05f;
   float speed = 0.01f;
   int traillength = 150;
@@ -9,6 +9,8 @@ class Radar
   void drawRadar()
   {
     theta += 0.005;
+    
+    
   
     float intensityChange = 100.0f / traillength;
     for(int i = 0; i < traillength; i ++)
