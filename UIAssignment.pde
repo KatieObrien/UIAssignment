@@ -95,23 +95,23 @@ void draw()
       
       //Bar - top
       fill(255);
-      stroke(147,147,147);
+      noStroke();
       triangle(-1,-1,-1,90,300,-1);
       triangle(801,-1,801,90,500,-1);
       noStroke();
       rect(-1,-1,801,50);
-      stroke(147,147,147);
-      line(137,48,663,48);
+      //noStroke();
+      //line(137,48,663,48);
       
       //Bar - bottom
       fill(255);
-      stroke(147,147,147);
+      noStroke();
       triangle(-1,501,-1,410,300,501);
       triangle(801,501,801,410,500,501);
       noStroke();
       rect(-1,452,801,50);
-      stroke(147,147,147);
-      line(137,452,663,452);
+      //stroke(147,147,147);
+      //line(137,452,663,452);
       
       //Radar Square
       
