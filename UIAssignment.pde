@@ -98,25 +98,25 @@ void draw()
       noStroke();
       triangle(-1,-1,-1,90,300,-1);
       triangle(801,-1,801,90,500,-1);
-      noStroke();
+      //noStroke();
       rect(-1,-1,801,50);
       
       //Bar - bottom
-      fill(255);
-      noStroke();
+      //fill(255);
+      //noStroke();
       triangle(-1,501,-1,410,300,501);
       triangle(801,501,801,410,500,501);
-      noStroke();
+      //noStroke();
       rect(-1,452,801,50);
       
       //Radar - Square
-      noStroke();
-      fill(255);
+      //noStroke();
+      //fill(255);
       rect(695,195,400,115);
       
       //side lines
-      noStroke();
-      fill(255);
+      //noStroke();
+      //fill(255);
       rect(737.5,0,20,550);
       rect(62.5,0,20,550);
       
