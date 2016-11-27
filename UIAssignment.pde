@@ -94,7 +94,7 @@ void draw()
       randStar.drawRandStars();
       
       //Bar - top
-      fill(50,145,237);
+      fill(255);
       stroke(147,147,147);
       triangle(-1,-1,-1,90,300,-1);
       triangle(801,-1,801,90,500,-1);
@@ -104,7 +104,7 @@ void draw()
       line(137,48,663,48);
       
       //Bar - bottom
-      fill(50,146,237);
+      fill(255);
       stroke(147,147,147);
       triangle(-1,501,-1,410,300,501);
       triangle(801,501,801,410,500,501);
@@ -114,7 +114,9 @@ void draw()
       line(137,452,663,452);
       
       //Square
-      rect(550,-1,460,100);
+      noStroke();
+      fill(255);
+      rect(690,-1,460,120);
       
       //Words
       stroke(80,84,88);
