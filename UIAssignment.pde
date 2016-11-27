@@ -116,7 +116,9 @@ void draw()
       //Square
       noStroke();
       fill(255);
-      rect(690,-1,460,120);
+      triangle(695,115,695,0,580,0);
+      triangle(692,112,801,112,801,185);
+      rect(695,-1,460,115);
       
       //Words
       stroke(80,84,88);
