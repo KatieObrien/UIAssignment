@@ -1,7 +1,7 @@
 class Radar 
 {
-  float rad = 40;
-  float rx = 750,ry = 40;
+  float rad = 50;
+  float rx = 750,ry = 250;
   float theta = 0.05f;
   float speed = 0.015f;
   int trail = 150;
@@ -21,9 +21,9 @@ class Radar
     
     noFill();
     stroke(88,88,88);
-    ellipse(750,40,rad*2,rad*2);
+    ellipse(750,250,rad*2,rad*2);
     //ellipse(750,100,137.5,137.5);
-    ellipse(750,40,50,50);
+    ellipse(750,250,50,50);
     
   }
   

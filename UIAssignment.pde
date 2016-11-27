@@ -114,12 +114,12 @@ void draw()
       line(137,452,663,452);
       
       //Radar Square
-      /*
+      
       noStroke();
       fill(255);
-      
-      rect(695,-1,460,115);
-      */
+      rect(737.5,0,20,550);
+      rect(695,195,400,115);
+     
       
       //Words
       stroke(80,84,88);
