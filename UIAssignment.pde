@@ -10,6 +10,8 @@ Info info = new Info();
 
 Radar radar = new Radar();
 
+Fuel fuel = new Fuel();
+
 PFont font;
 
 boolean[]keys = new boolean[1000];
@@ -138,6 +140,9 @@ void draw()
       
       //Radar
       radar.drawRadar();
+      
+      //Fuel Bar
+      fuel.drawBar();
       
       info.mouseMoved();
       /*
