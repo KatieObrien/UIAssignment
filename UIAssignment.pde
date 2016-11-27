@@ -100,8 +100,6 @@ void draw()
       triangle(801,-1,801,90,500,-1);
       noStroke();
       rect(-1,-1,801,50);
-      //noStroke();
-      //line(137,48,663,48);
       
       //Bar - bottom
       fill(255);
@@ -110,16 +108,17 @@ void draw()
       triangle(801,501,801,410,500,501);
       noStroke();
       rect(-1,452,801,50);
-      //stroke(147,147,147);
-      //line(137,452,663,452);
       
-      //Radar Square
+      //Radar - Square
+      noStroke();
+      fill(255);
+      rect(695,195,400,115);
       
+      //side lines
       noStroke();
       fill(255);
       rect(737.5,0,20,550);
-      rect(695,195,400,115);
-     
+      rect(62.5,0,20,550);
       
       //Words
       stroke(80,84,88);
