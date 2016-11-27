@@ -5,7 +5,7 @@ class Info
     if(mouseX >= 155 && mouseX <= 165 && mouseY >= 95 &&  mouseY <= 105)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -20,7 +20,7 @@ class Info
     if(mouseX >= 395 && mouseX <= 405 && mouseY >= 420 &&  mouseY <= 430)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -35,7 +35,7 @@ class Info
     if(mouseX >= 715 && mouseX <= 725 && mouseY >= 245 &&  mouseY <= 255)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -50,7 +50,7 @@ class Info
     if(mouseX >= 865 && mouseX <= 875 && mouseY >= 95 &&  mouseY <= 105)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -65,7 +65,7 @@ class Info
     if(mouseX >= 475 && mouseX <= 485 && mouseY >= 70 &&  mouseY <= 80)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -80,7 +80,7 @@ class Info
     if(mouseX >= 115 && mouseX <= 125 && mouseY >= 345 &&  mouseY <= 355)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
@@ -95,7 +95,7 @@ class Info
     if(mouseX >= 200 && mouseX <= 300 && mouseY >= 205 &&  mouseY <= 305)
     {
       stroke(255);
-      textSize(21);
+      textSize(15);
       textAlign(CENTER);
       fill(0);
       rect(328,178,150,30);
