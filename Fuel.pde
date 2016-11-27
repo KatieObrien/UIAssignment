@@ -13,8 +13,7 @@ class Fuel
     fill(0);
     textSize(30);
     text("FUEL",675,35);
-    
-    //int time = second();
+
     if(x>0)
     {
       x = x -0.1;
